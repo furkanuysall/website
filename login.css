@@ -54,3 +54,18 @@ body{
 .sidebar input[type="submit"]:hover{
     background: #27ae60;
 }
+.google-maps {
+    position: relative;
+    padding-bottom: 30%;
+    height: 0;
+    overflow: hidden;
+    top: 20%;
+    left: 5%;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    width: 25%;
+    height: 250%;
+}
