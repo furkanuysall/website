@@ -1,14 +1,14 @@
 body {
     background: url("work1.jpg");
-    animation: image 10s infinite alternate;
-    -webkit-animation: image 10s infinite alternate;
-    -moz-animation: image 10s infinite alternate;
+    animation: image 15s infinite alternate;
+    -webkit-animation: image 15s infinite alternate;
+    -moz-animation: image 15s infinite alternate;
  }
  @keyframes image{
      0%{
          background: url("work1.jpg");
      }
-     ½25{
+     25%{
          background: url("work2.jpg");
      }
      50%{
