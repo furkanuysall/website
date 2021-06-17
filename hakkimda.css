@@ -40,6 +40,37 @@ h1{
     position: absolute;
    left: 295%;
    font-size: 20px;
-   font-family:cursive;
+   font-family: cursive;
 
+}
+#sbox {
+    max-width: 300px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+#sbox .fa-search {
+    position: absolute;
+    top: 14px;
+    left: 12px;
+    font-size: 20px;
+    color:cornflowerblue;
+}
+ 
+#search {
+    width: 100px;
+    box-sizing: border-box;
+    border: 2px solid cornflowerblue;
+    border-radius: 4px;
+    font-size:18px;
+    padding: 12px 20px 12px 40px;
+    -moz-transition: width 0.4s ease-in-out;
+    -o-transition: width 0.4s ease-in-out;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+ 
+#search:focus {
+    width: 100%;
 }
